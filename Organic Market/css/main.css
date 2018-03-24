@@ -38,3 +38,13 @@ form {
 .Dostava {
   background-color: #90ee90;
 }
+form {
+  margin-top: 10px;
+}
+input {
+  border-radius: 8px;
+  background-color: #ffffcc;
+  border-style: none;
+  padding: 5px;
+  
+}
