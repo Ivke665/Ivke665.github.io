@@ -1393,3 +1393,13 @@ body {
 .grey {
     color: #777!important
 }
+form {
+  margin-top: 10px;
+}
+input {
+  border-radius: 8px;
+  background-color: #ffffcc;
+  border-style: none;
+  padding: 5px;
+  
+}
