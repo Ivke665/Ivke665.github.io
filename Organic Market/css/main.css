@@ -48,3 +48,34 @@ input {
   padding: 5px;
   
 }
+/*panel efekti*/
+#pan:before,
+#pan:after {
+  display: none;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  height: 100%;
+  -webkit-transform: scaleY(0);
+  transition: all 0.2s ease 0.2s;
+}
+#pan:before {
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 100%;
+}
+#pan:after {
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 0 0;
+}
+#pan:hover {
+  box-shadow: rgb(150,150,150) 15px 15px 21px;
+  -webkit-transform: translateY(-10px) translateX(-10px);
+  transition: all 0.3s ease 0.5s;
+}
+#pan:hover:after,
+#pan:hover:before {
+  -webkit-transform: scaleY(1);
+}
+
