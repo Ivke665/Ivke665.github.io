@@ -271,6 +271,15 @@ first project, besides our very own portfolio site I already mentioned.
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 <script src="MyP-2.js"></script>
+	  <script>
+		  function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(45.5, 21.9), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+	  </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVsIxl3EyyJNB-beB_NVig9661FIVgvEg=myMap"></script>
 </body>
 </html>
